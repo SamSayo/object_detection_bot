@@ -5,7 +5,7 @@ from aiogram.filters.command import Command
 from handlers import different_types
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="7117099158:AAHInAsNiinlXbFV5BnY6CILmeNZeEXh3jc")
+bot = Bot(token="YOUR TOKEN HERE")
 dp = Dispatcher()
 dp.include_router(different_types.router)
 
